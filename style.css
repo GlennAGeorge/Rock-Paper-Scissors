@@ -1,0 +1,50 @@
+body {
+	background-color: black;
+}
+
+.selection {
+	display: flex;
+	justify-content: center;
+	margin-top: 8%;
+}
+
+.selection {
+	transition: 100ms;
+}
+
+.selection:hover {
+	transform: scale(1.2);
+}
+
+.results {
+	margin-top: 2rem;
+	margin-right: 20rem;
+	margin-left: 20rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+	align-items: center;
+}
+
+.result-score {
+	margin-left: 0.1rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	color: white;
+}
+
+button {
+	font-size: 30px;
+	background-color: yellow;
+	border: none;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+	border: 1px solid black;
+	font-family: "Press Start 2P", cursive;
+}
